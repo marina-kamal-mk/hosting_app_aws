@@ -126,7 +126,7 @@ jobs:
         description: Path to the directory containing your application source code. My default, the current directory will be used.
         type: string
       application-name:
-        default: "udacity"
+        default: "udagram-api-udacity"
         description: The name of the application (used during `eb init`).
         type: string
       description:
@@ -134,7 +134,7 @@ jobs:
         description: The description for the application version, enclosed in double quotation marks.
         type: string
       environment-name:
-        default: "Udacity-env"
+        default: "udagram-api-udacity"
         description: The name of the existing environment (created with `eb create`) to update.
         type: string
       image:
@@ -154,7 +154,7 @@ jobs:
       - setup
       - run:
           command: |
-             eb deploy Udacity-env
+             eb deploy udagram-api-udacity
           name: EB Deploy
           working_directory: <<parameters.app-dir>>
 
