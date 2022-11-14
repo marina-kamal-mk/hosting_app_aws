@@ -1,7 +1,7 @@
 # Hosting a Full-Stack Application
 
 ## front-end link 
-http://udagram-udacity-app.s3-website-us-east-1.amazonaws.com
+http://udagram-api-udacity.s3-website-us-east-1.amazonaws.com
 
 
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
