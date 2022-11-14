@@ -94,27 +94,27 @@ jobs:
       - run:
           name: Install Frontend
           command: |
-            npm run install:frontend
+            npm run frontend:install
       - run:
           name: Install Backend
           command: |
-            npm run install:backend
+            npm run api:install
       - run:
           name: Build Frontend
           command: |
-            npm run build:frontend
+            npm run frontend:build
       - run:
           name: Test Frontend
           command: |
-            npm run test:frontend
+            npm run frontend:test
       - run:
           name: Build Backend
           command: |
-            npm run build:backend
+            npm run api:build
       - run:
           name: Deployment
           command: |
-            npm run deploy:frontend
+            npm run frontend:deploy
   deploy:
     description: |
       Deploy an update to an existing AWS Elastic Beanstalk environment.
