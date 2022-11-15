@@ -12,7 +12,7 @@
     "dev": "npx ts-node-dev --respawn --transpileOnly ./src/server.ts",
     "prod": "npx tsc && node ./server.js",
     "clean": "rimraf www/ || true",
-    "deploy": " eb use udagram-api && eb deploy",
+    "deploy": " eb deploy",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && mv Archive.zip .. && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
