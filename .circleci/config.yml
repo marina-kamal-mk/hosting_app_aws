@@ -73,8 +73,6 @@ jobs:
       - run:
          name: run Frontend unit test
          command: |
-          google-chrome --version
-          chromedriver --version
           npm run frontend:test
   # deploy step will run only after manual approval
   deploy:
