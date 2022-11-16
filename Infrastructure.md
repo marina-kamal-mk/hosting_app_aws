@@ -10,13 +10,3 @@ http://udagram-api-udacity.s3-website-us-east-1.amazonaws.com
 
 ## Architecture Design for the application
 ![Getting Started](./shots/architecture_dig.jpeg)
-
-## pipeline process
-![Getting Started](./shots/pipline-workflow.PNG)
-
-## main dependancies 
-    - aws cli
-    - Node
-    - npm
-    - elasticbeanstalk cli
-    - angular cli
